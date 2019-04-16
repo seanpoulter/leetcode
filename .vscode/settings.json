@@ -1,0 +1,12 @@
+{
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "javascript/node_modules": true,
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#fea116"
+  },
+}
