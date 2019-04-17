@@ -1,7 +1,4 @@
-/**
- * @param {any} val
- */
-export function ListNode(val) {
+export function ListNode<T>(val: T) {
   this.val = val;
   this.next = null;
 }
@@ -16,10 +13,7 @@ ListNode.prototype.toString = function() {
   return str;
 }
 
-/**
- * @param {any[]} array
- */
-ListNode.fromArray = function(values) {
+ListNode.fromArray = function<T>(values: T[]) {
   if (!values || values.length === 0) {
     return null;
   }
