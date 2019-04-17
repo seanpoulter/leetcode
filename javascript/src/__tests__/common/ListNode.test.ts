@@ -25,7 +25,7 @@ describe('ListNode', () => {
     it('should return the nodes joined by "-"', () => {
       const head = ListNode.fromArray([1,2,3,4]);
 
-      expect(head.toString()).toBe('1 -> 2 -> 3 -> 4');
+      expect(head.toString()).toBe('1->2->3->4');
     });
   });
 

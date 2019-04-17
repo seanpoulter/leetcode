@@ -7,7 +7,7 @@ ListNode.prototype.toString = function() {
   let str = JSON.stringify(this.val);
   let node = this.next;
   while (node) {
-    str += ' -> ' + JSON.stringify(node.val);
+    str += '->' + JSON.stringify(node.val);
     node = node.next;
   }
   return str;
